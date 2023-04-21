@@ -10,16 +10,17 @@
 </head>
 
 <body>
-    <header>
-        <?php include_once("../inc/nav-inc.php"); ?>
-    </header>
-    <div class="clock">
-        <p id="timer">00:00:00</p>
-        <button class="button" id="start-stop">Start</button>
-        <button class="button" id="reset">Reset</button>
-        <button class="button" id="record">Tour</button>
-        <ul id="records"></ul>
-    </div>
+    <main>
+        <div class="clock">
+            <p id="timer">00:00:00</p>
+            <button class="button" id="start-stop">Start</button>
+            <button class="button" id="reset">Reset</button>
+            <button class="button" id="record">Tour</button>
+            <ul id="records"></ul>
+        </div>
+        <?php include_once("../inc/background-inc.php"); ?>
+    </main>
+
 </body>
 <script src="./js/script_chronometre.js"></script>
 

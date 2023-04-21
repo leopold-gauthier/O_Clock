@@ -10,18 +10,22 @@
 </head>
 
 <body>
-    <header>
-        <?php include_once("../inc/nav-inc.php"); ?>
-    </header>
-    <div class="clock">
-        <p id="clock">00:00:00</p>
-        <ul id="alarmList"></ul>
-        <label for="alarmTime">Alarme :</label>
-        <input type="time" id="alarmTime">
-        <label for="alarmMessage">Nom :</label>
-        <input type="text" id="alarmMessage">
-        <button class="button" onclick="setAlarm()">Ajouter une alarme</button>
-    </div>
+    <main>
+        <div class="clock">
+            <ul id="alarmList"></ul>
+
+            <label for="alarmTime">Alarme</label>
+            <input type="time" id="alarmTime">
+
+
+
+            <label for="alarmMessage">Nom</label>
+            <input type="text" id="alarmMessage">
+            <button class="button" onclick="setAlarm()">Ajouter une alarme</button>
+        </div>
+        <?php include_once("../inc/background-inc.php"); ?>
+    </main>
+
 </body>
 <script src="./js/script_reveil.js"></script>
 

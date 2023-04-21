@@ -10,14 +10,12 @@
 </head>
 
 <body>
-
-    <header>
-        <?php include_once("../inc/nav-inc.php"); ?>
-    </header>
-    <div class="clock">
-        <p id="clock">00:00:00</p>
-    </div>
-    <?php include_once("../inc/background-inc.php"); ?>
+    <main>
+        <div class="clock">
+            <p id="clock">00:00:00</p>
+        </div>
+        <?php include_once("../inc/background-inc.php"); ?>
+    </main>
 </body>
 
 
